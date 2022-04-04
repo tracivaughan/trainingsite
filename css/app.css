@@ -4483,6 +4483,7 @@ a.white-btn:link {
   padding: 0 0 0.75rem 1.75rem;
   background-image: url("data:image/svg+xml,%3Csvg width='1rem' height='1rem' viewBox='0 0 1rem 1rem' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='All-Functional-area-det-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Desktop-HD' transform='translate(-120.000000  -355.000000)'%3E%3Crect fill='%23FFFFFF' x='0' y='0' width='1280' height='1239'%3E%3C/rect%3E%3Cg id='Group' transform='translate(120.000000  355.000000)' fill='%23E5BD61' fill-rule='nonzero'%3E%3Cg id='Path'%3E%3Cpolygon points='8.7 14.7 7.3 13.3 10.6 10 0 10 0 2.84217094e-14 2 2.84217094e-14 2 8 10.6 8 7.3 4.7 8.7 3.3 14.4 9'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   background-position: 0 0.05rem;
+  background-repeat: no-repeat;
 }
 .directory h2 {
   font-size: 1.1rem;
