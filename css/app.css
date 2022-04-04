@@ -4360,12 +4360,14 @@ a.checker:link, a.checker:visited {
   line-height: 1.5;
 }
 
-.man-card-group,
+@media print, screen and (min-width: 64em) {
+  .man-card-group,
 .prof-card-group {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: auto;
-  grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+  }
 }
 
 .prof-card-group {
@@ -4377,6 +4379,7 @@ a.checker:link, a.checker:visited {
   display: inline-block;
   border: 1px solid #4ca0cc;
   border-radius: 5px;
+  margin-bottom: 1rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   padding: 1rem 1rem 3rem 1rem;
   background-color: #fefefe;
